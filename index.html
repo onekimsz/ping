@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your Perfect Match!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #200005, #3a0018);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff4a6e;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #ff1e4a;
+        }
+        .image-container {
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .carousel {
+            display: flex;
+            gap: 10px;
+            overflow-x: auto;
+            scroll-behavior: smooth;
+        }
+        .carousel img {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+        }
+        .access-instructions {
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+    </style>
+    
+    <script>
+        // Disable right-click
+        document.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
+
+        // Disable copy-paste
+        document.addEventListener("copy", function(event) {
+            event.preventDefault();
+        });
+
+        // Randomize the link when the page loads
+        window.onload = function() {
+            var links = [
+                "https://vnanxl.llovesgreat.com/?utm_source=da57dc555e50572d&&ban=inst&j1=1&s1=226805&s2=2083622&s3=NARUTO&click_id=KAGEBUNSHIN",
+                "https://xtwphrh.mysweet-contactstimes.com/g2t2cdv?t=NARUTO&cid=UCIHA",  // Ganti dengan URL acak lainnya
+                "https://vnanxl.llovesgreat.com/?utm_source=da57dc555e50572d&&ban=inst&j1=1&s1=226805&s2=2083622&s3=NARUTO&click_id=KAGEBUNSHIN"   // Ganti dengan URL acak lainnya
+            ];
+
+            // Pilih link secara acak dari array
+            var randomLink = links[Math.floor(Math.random() * links.length)];
+            document.getElementById("cta-button").href = randomLink;
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Find Your Perfect Match!</h1>
+        <p>Are you ready to meet someone special? Join our platform and discover a world of possibilities. Thousands of singles are waiting for you!</p>
+        <section class="image-container">
+            <div class="carousel">
+                <img src="bg1.jpg" alt="Couple holding hands while walking in the park">
+                <img src="bg2.jpg" alt="Romantic dinner setup with candles and wine">
+                <img src="bg3.jpg" alt="Couple walking on the beach during sunset">
+            </div>
+            <p class="access-instructions">Swipe the image below to access the link and start the journey with me on WhatsApp to chat, share and connect like never before. Simple and easy—just click the button below and register your email to get started!!</p>
+        </section>
+        <a href="#" id="cta-button" class="cta-button" aria-label="Continue to register on the dating platform">Continue To WhatsApp</a>
+    </div>
+    <footer>
+        <p>&copy; bingung garapan ye?</a></p>
+    </footer>
+</body>
+</html>
